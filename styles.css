@@ -417,6 +417,52 @@ header ul a{
     font-size: 0.73rem;
     padding:0 0.9rem;
 }
+.bg-img{
+    width: initial;
+    height: 172.2208%;
+}
+.meteor{
+    width: initial;
+    height: 16.66656%;
+
+    
+}
+
+.fog-img{
+    width: initial;
+    height: 172.2208%;
+
+}
+
+.fog-img-1{
+  width: initial;
+  height: 200%;
+}
+
+.enemy{
+    width: initial;
+    height: 12.77776%;
+
+}
+.spaceship-img {
+    width: initial;
+    height: 44.44432%;
+}
+
+
+.building-img{
+    width: initial;
+    height: 38.8888%;
+
+}
+.light-img{
+    width: initial;
+}
+
+.boy-img{
+    width: initial;
+    height:38.194444%;
+}
 
 }
 
