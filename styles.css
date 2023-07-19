@@ -395,4 +395,49 @@ main {
   }
 }
 
+
 }
+/* Your existing CSS code... */
+
+/* Add a media query to handle mobile devices */
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    header ul {
+        margin-top: 1rem;
+    }
+    header ul a {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .logo {
+        width: 150px;
+    }
+    .parallax-container {
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .parallax {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .text h1 {
+        font-size: 3rem;
+    }
+    .text h2 {
+        font-size: 2rem;
+    }
+    .glowing-btn {
+        font-size: 1rem;
+        padding: 0.25em 0.75em;
+    }
+}
+
